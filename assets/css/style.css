@@ -18,3 +18,16 @@ h2{
     font-size: 40px;
     margin-top: 0%;
 }
+button{
+    border: none;
+    padding: 10px 5px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn{
+    background-color: darkred;
+}
