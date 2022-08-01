@@ -4,13 +4,15 @@ let countEl = document.getElementById("count-el");
 // console.log(countEl);
 
 function increment() {
-  count = count + 1;
+  count += 1;
   //   set countEl's innerText or innerHTML to the count
   countEl.innerText = count;
   //   console.log(count);
 }
 
-// Save() function that logs out the count when its called
+let saveEl = document.getElementById("save-el");
+
 function save() {
-  console.log(count);
+  let countStr = count + " - ";
+  saveEl.textContent += countStr;
 }
