@@ -9,3 +9,8 @@ function increment() {
   countEl.innerText = count;
   //   console.log(count);
 }
+
+// Save() function that logs out the count when its called
+function save() {
+  console.log(count);
+}
